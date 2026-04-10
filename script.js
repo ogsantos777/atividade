@@ -8,6 +8,10 @@ function enviarDados() {
         return;
     }
 
+    if (!email.includes("@")){
+    alert("Você precisa colocar um endereço de e-mail valido!")
+    }
+
     document.getElementById("mensagem").innerHTML = "Dados recebidos com sucesso!";
  
     document.getElementById("resultado").innerHTML =
