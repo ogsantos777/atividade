@@ -10,6 +10,7 @@ function enviarDados() {
 
     if (!email.includes("@")){
     alert("Você precisa colocar um endereço de e-mail valido!")
+        return;
     }
 
     document.getElementById("mensagem").innerHTML = "Dados recebidos com sucesso!";
