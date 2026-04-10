@@ -8,8 +8,6 @@ function enviarDados() {
         return;
     }
 
-    
- 
     document.getElementById("mensagem").innerHTML = "Dados recebidos com sucesso!";
  
     document.getElementById("resultado").innerHTML =
